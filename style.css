@@ -1,0 +1,39 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  background: rgb(178, 171, 171);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  align-self: end;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+  color: #005000;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cacher {
+  display: none;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 10px;
+}
+
+.hamburger {
+  cursor: pointer;
+}
